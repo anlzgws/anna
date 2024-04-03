@@ -3,13 +3,30 @@ h1 {
 }
 
 p{
-    font-size: x-large;
+    font-size: x-large; color: bisque;
 }
 
 .a {
-    color: blueviolet;
+    color: burlywood;
 }
 
 #b {
     text-align: center;stop-opacity: unset;
+}
+
+.imagem-java{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.imagem-shampoo{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.imagem-mandala{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+
 }
