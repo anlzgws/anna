@@ -25,8 +25,52 @@ p{
     border-radius: 50px;
 }
 .imagem-mandala{
+    height: max-content;
+    position: relative;
+}
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.flex-item{
+    background-color: cornsilk;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: x-large;
+    color: bisque;
+    margin: 5px ;
+}
+.linha{
+    flex-direction:row;
+}
+.espacado-igualmente {
+    justify-content: space-between;
+}
+.coluna{
+    width: 100%;
+    float: left;
+    flex-direction: column;
+
+}
+.imagem-oleor{
     width: 400px;
     height: 300px;
     border-radius: 50px;
-
+}
+.imagem-oleo-ama{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.imagem-oleo-azul{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.imagem-oleo-preto{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
 }
