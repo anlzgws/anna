@@ -1,76 +1,116 @@
-h1 {
-    background-color: antiquewhite;text-decoration-color: beige;
+h1{ background-color: lightpink;
+color: white;
+    text-align: center;
 }
 
-p{
-    font-size: x-large; color: bisque;
-}
-
-.a {
-    color: burlywood;
-}
-
-#b {
-    text-align: center;stop-opacity: unset;
-}
-
-.imagem-java{
+.imagem-shampoo {
     width: 400px;
     height: 300px;
     border-radius: 50px;
 }
-.imagem-shampoo{
-    width: 400px;
-    height: 300px;
-    border-radius: 50px;
-}
-.imagem-mandala{
+
+.imagem-mandala {
     height: max-content;
     position: relative;
 }
-.flex-container{
+
+.flex-container {
     margin: 0;
     padding: 0;
     display: flex;
 }
-.flex-item{
+
+.flex-item {
     background-color: cornsilk;
     height: 50px;
     width: 50px;
     line-height: 50px;
     font-size: x-large;
     color: bisque;
-    margin: 5px ;
+    margin: 5px;
 }
-.linha{
-    flex-direction:row;
+
+.linha {
+    flex-direction: row;
 }
+
 .espacado-igualmente {
     justify-content: space-between;
 }
-.coluna{
+
+.coluna {
     width: 100%;
     float: left;
     flex-direction: column;
 
 }
-.imagem-oleor{
+
+.extrapolar {
+    width: 130%
+}
+
+.imagem-oleor {
     width: 400px;
     height: 300px;
     border-radius: 50px;
 }
-.imagem-oleo-ama{
+
+.imagem-oleo-ama {
     width: 400px;
     height: 300px;
     border-radius: 50px;
 }
-.imagem-oleo-azul{
+
+.imagem-oleo-azul {
     width: 400px;
     height: 300px;
     border-radius: 50px;
 }
-.imagem-oleo-preto{
+
+.imagem-oleo-preto {
     width: 400px;
     height: 300px;
     border-radius: 50px;
+}
+
+.imagem-mandala-canto {
+    height: max-content;
+    position: relative;
+}
+
+.imagem-cabelo {
+    height: max-content;
+    position: relative;
+}
+
+.caixinhas {
+    width: 50%;
+}
+
+.caixinhas p {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 25%;
+}
+
+.cor-rosa-quente {
+    background-color: hotpink; 
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
 }
